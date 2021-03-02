@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="sidenav.css">
+    <link rel="stylesheet" href="../bootstrap/css/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+<!-- ******************* START HERE *************************-->
+<a href="#" class="toggle" id="sidenav-toggle">
+    <i class="fa fa-list"></i>
+</a>
+<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+    <div class="sidenav-brand">BrainsKart</div>
+
+    <div class="sidenav-header">Categories</div>
+
+    <ul class="sidenav-menu">
+        <li>
+            <a href="#" data-sidenav-dropdown-toggle class="active">
+                <span class="sidenav-link-icon">
+                  <i class="fa fa-store"></i>
+                </span>
+                <span class="sidenav-link-title">Mens Wear</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-sidenav-dropdown-toggle class="active">
+                <span class="sidenav-link-icon">
+                  <i class="fa fa-store"></i>
+                </span>
+                <span class="sidenav-link-title">Womens Wear</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-sidenav-dropdown-toggle class="active">
+                <span class="sidenav-link-icon">
+                  <i class="fa fa-store"></i>
+                </span>
+                <span class="sidenav-link-title">Kids Wear</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-sidenav-dropdown-toggle class="active">
+                <span class="sidenav-link-icon">
+                  <i class="fa fa-store"></i>
+                </span>
+                <span class="sidenav-link-title">Watches</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-sidenav-dropdown-toggle class="active">
+                <span class="sidenav-link-icon">
+                  <i class="fa fa-store"></i>
+                </span>
+                <span class="sidenav-link-title">Mobiles</span>
+            </a>
+        </li>
+    </ul>
+
+</nav>
+
+
+<!-- ******************* END HERE *************************-->
+<div style="margin-bottom: 500px"></div>
+<!-- Bootstrap JS files -->
+<script src="../bootstrap/js/jquery.js"></script>
+<script src="../bootstrap/js/popper.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/mdb.js"></script>
+<script src="sidenav.js"></script>
+<script>
+    $('[data-sidenav]').sidenav();
+</script>
+</body>
+</html>

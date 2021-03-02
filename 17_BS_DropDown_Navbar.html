@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Bootstrap</title>
+    <style>
+        .dropdown-item:hover{
+            background: linear-gradient(45deg,darkslategray,red);
+            color: white !important;
+            box-shadow: 0 5px 5px grey;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-dark bg-danger navbar-expand-lg">
+    <a href="#" class="navbar-brand">UiBrains</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#simpleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="simpleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item px-2 active">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-id-card"></i> About</a>
+            </li>
+            <li class="nav-item px-2">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-cogs"></i> Services</a>
+            </li>
+            <li class="nav-item px-2 dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown">
+                    <i class="fa fa-laptop"></i> Courses <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-menu p-2">
+                    <a href="#" class="dropdown-item">HTML</a>
+                    <a href="#" class="dropdown-item">CSS</a>
+                    <a href="#" class="dropdown-item">JavaScript</a>
+                    <a href="#" class="dropdown-item">Bootstrap</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline ml-auto">
+            <div class="form-group">
+                <input type="search" class="form-control" placeholder="Search Here...">
+            </div>
+            <div>
+                <input type="submit" value="Search" class="btn btn-outline-white btn-sm">
+            </div>
+        </form>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<section class="mt-3 container-fluid">
+    <h5 class="display-4">Welcome to Navbar Example</h5>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi atque delectus enim error est explicabo ipsum laudantium numquam odit, perferendis placeat porro quae quasi quod recusandae rerum vel voluptatem. Consequatur culpa delectus doloribus harum in minus quas, qui voluptate? Animi dicta facere minus non perspiciatis quasi repellat suscipit voluptatem.</p>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis consequuntur cum cumque debitis dicta eaque est eum excepturi fugit, incidunt inventore ipsa nemo nesciunt pariatur perferendis praesentium, quibusdam quos recusandae reiciendis rem, repellendus similique soluta tenetur veritatis vero voluptate!</p>
+</section>
+
+<!-- ******************* END HERE *************************-->
+<div style="margin-bottom: 500px"></div>
+<!-- Bootstrap JS files -->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+</body>
+</html>

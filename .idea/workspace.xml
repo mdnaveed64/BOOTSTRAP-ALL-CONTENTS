@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="096ce405-0cfd-445f-b4c0-832457127406" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XeZDH3iEFUm9QM6V7BPQ8wFys3" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/React_JS_for_Students/react-fundamentals/brainkart" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training\sidenav" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training\sidenav" />
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training" />
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training\bootstrap\img" />
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training\img" />
+      <recent name="C:\Users\HP\Desktop\Bootstrap_4_Training\imagea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096ce405-0cfd-445f-b4c0-832457127406" name="Default Changelist" comment="" />
+      <created>1581408399976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581408399976</updated>
+      <workItem from="1581408401259" duration="5523000" />
+      <workItem from="1581504000568" duration="9374000" />
+      <workItem from="1581551064080" duration="611000" />
+      <workItem from="1581578712071" duration="3195000" />
+      <workItem from="1582097041655" duration="4152000" />
+      <workItem from="1582615539416" duration="8681000" />
+      <workItem from="1582708121499" duration="1598000" />
+      <workItem from="1585473909332" duration="1340000" />
+      <workItem from="1586242236291" duration="3441000" />
+      <workItem from="1586273352862" duration="4441000" />
+      <workItem from="1586329464616" duration="1201000" />
+      <workItem from="1586352861236" duration="614000" />
+      <workItem from="1591031503543" duration="2819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
